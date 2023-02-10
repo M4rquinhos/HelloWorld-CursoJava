@@ -10,7 +10,17 @@ public class PrimitivosCaracteres {
         System.out.println("simbolo = " + simbolo);
         System.out.println("¿ caracter = simbolo ?: " + (caracter == simbolo));
 
-        System.out.println("Tipo char corresponde en byte a: " + Character.BYTES);
+        char espacio = '\u0020';
+        char retroceso = '\b'; //borrar
+        char tabulador = '\t';
+        char nuevaLinea = '\n';
+        char retornoCarro = '\r'; //enter/ nueva linea xd
+        /*
+        System.getProperty("Line.separator");
+        System.lineSeparator();
+         */
+
+        System.out.println("Tipo char corresponde en byte a:" +  espacio + Character.BYTES);
         System.out.println("Tipo char corresponde en bites a: " + Character.SIZE);
         System.out.println("Valor mínimo de un char: " + Character.MIN_VALUE);
         System.out.println("Valor máximo de un char: " + Character.MAX_VALUE);
