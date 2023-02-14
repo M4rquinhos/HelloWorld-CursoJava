@@ -8,5 +8,9 @@ public class EjemploString {
 
         esIgual = curso.equals(curso2);
         System.out.println("esIgual = " + esIgual);
+
+
+
+
     }
 }
